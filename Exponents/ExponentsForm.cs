@@ -28,18 +28,12 @@ namespace Exponents
         {
             // STORAGE
 
-            int number = Convert.ToInt32(xInputTextBox.Text);
-            
             // INPUT
-            
-            Number num = new System.Number(number);
 
             // PROCESS
             /* calculate the square of the number and add it to the output - 
              * do this with a method call that allows you to pass the number
              * and then receive the answer */
-
-            xSquareLabel.Text = num.Square().ToString();
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
@@ -63,14 +57,9 @@ namespace Exponents
         private void xResetButton_Click(object sender, EventArgs e)
         {
             // the input and output text should be emptied
-            xInputTextBox.Clear();
             // turn the output to invisible
             // turn the Go button back on
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
