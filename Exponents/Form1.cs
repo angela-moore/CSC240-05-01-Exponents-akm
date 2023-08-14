@@ -9,12 +9,14 @@ using System.Windows.Forms;
 
 /**************************************
  * Name: Angela Moore
- * Date: 8/4/2023
+ * Date: 8/14/2023
  * Description: A program using user-created method
  *              for the math function Square and Cube
- * Assistance:
+ * Assistance:  
  *************************************/
 
+// this comment is being used to push update to GitHub
+// unsuccessful attempt 1 atempt 2
 namespace Exponents
 {
     public partial class Form1 : Form
